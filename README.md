@@ -3,7 +3,7 @@
 A lightweight web application that allows users to instantly create a profile card by entering their details.
 The generated card can be downloaded as an image or copied directly to the clipboard for easy sharing on social media, portfolios, or resumes.
 
-_This project was built while exploring JavaScript libraries and strengthening core frontend fundamentals._
+**This project was built while exploring JavaScript libraries and strengthening core frontend fundamentals.**
 
 ## 🚀 Features
 
