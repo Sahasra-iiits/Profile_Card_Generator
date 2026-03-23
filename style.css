@@ -28,6 +28,7 @@ body,
 }
 #icon1 > i:hover {
   background-color: #f99595;
+  cursor: pointer;
 }
 #center_box {
   padding-left: 40px;
@@ -97,6 +98,7 @@ body,
 }
 #button1:hover {
   background-color: #925555;
+  cursor: pointer;
 }
 #selection > select {
   height: 30px;
@@ -162,6 +164,7 @@ body,
   width: 40px;
   background-color: #f99595;
   color: white;
+  cursor: pointer;
 }
 
 @media ((max-width: 1250px)) {
