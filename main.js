@@ -53,10 +53,26 @@ copy_btn.addEventListener("click", async () => {
   }, "image/png");
 });
 
-const toggle = document.querySelector("#icon1");
+const toggle_btn = document.querySelector("#icon1");
+let toggle = 0;
+const central_box = document.querySelector("#headings").children;
 
-toggle.addEventListener("click", () => {
-  alert("Light Theme Soon...");
+toggle_btn.addEventListener("click", () => {
+  const body = document.querySelector("body");
+  if (toggle == 0) {
+    toggle = 1;
+    body.style.backgroundImage = "url(images/image.png)";
+    central_box[0].style.color = "#000000";
+    central_box[1].style.color = "#c67474";
+    toggle_btn.children[0].style.color = "#000000";
+  } else if (toggle == 1) {
+    console.log("Clicked2");
+    toggle = 0;
+    body.style.backgroundImage = "url(images/img3.png)";
+    central_box[0].style.color = "#ffffff";
+    central_box[1].style.color = "#f99595";
+    toggle_btn.children[0].style.color = "#ffffff";
+  }
 });
 
 /*
