@@ -11,6 +11,7 @@ The generated card can be downloaded as an image or copied directly to the clipb
 - Export the Profile Card as a PNG image
 - Copy to clipboard for quick sharing
 - Fully browser-based (no backend required)
+- 🌙 Dark / Light theme toggle
 
 ---
 
@@ -47,7 +48,6 @@ This project helped strengthen my JavaScript fundamentals and real-world UI impl
 
 - 🔴 Live preview of Profile Card while entering details
 - 🎨 Multiple profile card templates
-- 🌙 Dark / Light theme toggle
 - 📱 Better mobile responsiveness
 - 🧩 Option to upload profile picture
 
